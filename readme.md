@@ -1,17 +1,17 @@
 Welcome to Axel's theme. The official Wordpress look-n-feel ready for 2016 to kick off in style and using the latest advances in digital technologies and best practises.
 
-We are using Furtive by John Otander, Googl's AMP Project and Wordpress. Our aim is to provide a mobile-first, minimalist reading optimised website that is providing a fab user experience.
+We are using Furtive by John Otander, Google's AMP Project and Wordpress. Our aim is to provide a mobile-first, minimalist and reading optimised website that loads fast.
 
 Our development environment uses GIT and docker on a Mac.
 
 Repositories:
-axelstheme.git -> github public repo for your viewing pleasure
-https://github.com/johnotander/furtive
-https://github.com/ampproject
+- https://github.com/axelsegebrecht/axelstheme (this place)
+- https://github.com/johnotander/furtive 
+- https://github.com/ampproject
 
 Docker images:
-https://hub.docker.com/_/wordpress/
-https://hub.docker.com/_/mysql/
+- https://hub.docker.com/_/wordpress/
+- https://hub.docker.com/_/mysql/
 
 On our local dev machine (MacBook Pro running Yosemite), we run the latest docker toolbox and the official WP and MySQL containers.
 
