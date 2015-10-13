@@ -18,3 +18,7 @@ On our local dev machine (MacBook Pro running Yosemite), we run the latest docke
 We downloaded a current version of WP to our dev machine and added our theme to wp-content. We amend the wp-config.php to match our dev mysql set-up (wordpress/password) and then hook-up the local directory to the WP container. Effectively all files are run from our local machine and only MySQL and Apache2 will be running in the containers.
 
 Our .gitignore, courtesey of WPEngine.com, disallows any core files from being managed or pushed across as we will only want our theme files and other customisations.
+
+We can then push to staging or live on WPEngine.com whilst working locally with our install. Note that the database is not transferred! If you need demo data, do a WP export and import to dev and staging. We are concerned with plugs and themes only.
+
+Note that plugs may need db updates, that perhaps should be run after deployment to live or staging to update the db there.
